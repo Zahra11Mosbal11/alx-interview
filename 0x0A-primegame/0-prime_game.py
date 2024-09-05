@@ -28,6 +28,7 @@ def isWinner(x, nums):
         return "Maria"
     return None
 
+
 def rm_multiples(ls, x):
     """removes multiple of primes"""
     for i in range(2, len(ls)):
